@@ -9,17 +9,17 @@ import Phone from '../assets/phone.svg'
 const Footer = () => {
   return (
     <footer>
-      <div className="w-full max-w-7xl mx-auto flex items-start border-t py-20">
-        <img className="w-36" src={Logo} alt="Logo"/>
-        <article className="flex-1">
-          <div className="flex justify-center lg:space-x-16 pb-4">
+      <div className="w-full max-w-7xl mx-auto flex flex-col items-center md:flex-row md:items-start border-t gap-y-4 py-20">
+        <img className="w-40" src={Logo} alt="Logo" />
+        <article className="flex-1 gap-y-4">
+          <div className="flex flex-col items-center md:items-start md:flex-row md:justify-center lg:space-x-16 pb-4 text-center md:text-left">
             <h2>Home</h2>
             <h2>Shippers</h2>
             <h2>Truckers</h2>
             <h2>Careers</h2>
             <h2>Privacy Policy</h2>
           </div>
-          <div className="flex text-sm justify-center text-blue-500 lg:space-x-16 pb-24">
+          <div className="flex flex-col items-center md:flex-row text-sm justify-center text-blue-500 lg:space-x-16 pb-6 md:pb-24 gap-y-2">
             <article className="flex items-center space-x-2">
               <img className="w-4" src={Envelope} alt="Envelope"/> 
               <span>connect@trtrucklines.com</span>

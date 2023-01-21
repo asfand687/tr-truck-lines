@@ -3,9 +3,9 @@ import Map from '../assets/map.png'
 
 const HomeLocationSection = () => {
   return (
-    <section className="flex items-center py-20">
+    <section className="flex flex-col md:items-center py-8 md:py-20 px-4 text-center md:text-left gap-y-10">
       <article className='flex-1 flex justify-end'>
-        <div className="w-[70%] space-y-6">
+        <div className="w-full lg:w-[70%] space-y-6">
           <h2 className="text-3xl font-semibold">
             Located in Avnel NJ
           </h2>

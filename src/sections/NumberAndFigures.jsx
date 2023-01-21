@@ -8,7 +8,7 @@ import Renault from '../assets/renault.png'
 const NumberAndFigures = () => {
   return (
     <section>
-      <div className="max-w-5xl mx-auto flex justify-between">
+      <div className="w-full max-w-5xl mx-auto flex flex-col px-4 md:flex-row md:justify-between text-center md:text-left gap-y-10">
         <article className="w-full max-w-[600px] space-y-6">
           <h2 className="text-4xl font-bold">Number & Figures</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam quaerat perferendis nam necessitatibus praesentium</p>
