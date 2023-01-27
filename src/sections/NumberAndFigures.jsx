@@ -9,13 +9,13 @@ const NumberAndFigures = () => {
   return (
     <section>
       <div className="w-full max-w-5xl mx-auto flex flex-col px-4 md:flex-row md:justify-between text-center md:text-left gap-y-10">
-        <article className="w-full max-w-[600px] space-y-6">
+        <article data-aos="zoom-in" className="w-full max-w-[600px] space-y-6">
           <h2 className="text-4xl font-bold">Number & Figures</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam quaerat perferendis nam necessitatibus praesentium</p>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam quaerat perferendis nam necessitatibus praesentium</p>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt numquam quaerat perferendis nam necessitatibus praesentium</p>
         </article>
-        <article className="flex-1 px-8 space-y-6">
+        <article data-aos="zoom-in" className="flex-1 px-8 space-y-6">
           <div className="flex items-center justify-between">
             <img className="w-28" src={Scania} alt="Scania"/>
             <img className="w-28" src={Volvo} alt="Volvo"/>

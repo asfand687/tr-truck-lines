@@ -3,7 +3,7 @@ import Map from '../assets/map.png'
 
 const HomeLocationSection = () => {
   return (
-    <section className="flex flex-col md:items-center py-8 md:py-20 px-4 text-center md:text-left gap-y-10">
+    <section data-aos="zoom-out" className="flex flex-col md:flex-row md:items-center py-8 md:py-20 px-4 text-center md:text-left gap-y-10">
       <article className='flex-1 flex justify-end'>
         <div className="w-full lg:w-[70%] space-y-6">
           <h2 className="text-3xl font-semibold">
@@ -17,7 +17,7 @@ const HomeLocationSection = () => {
         </div>
       </article>
       <article className='flex-1'>
-        <img src={Map} alt="Map"/>
+        <img className="w-full h-[400px]" src={Map} alt="Map" />
       </article>
     </section>
   )
