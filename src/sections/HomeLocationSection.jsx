@@ -17,7 +17,7 @@ const HomeLocationSection = () => {
         </div>
       </article>
       <article className='flex-1'>
-        <img className="w-full h-[400px]" src={Map} alt="Map" />
+        <img className="w-full h-[400px] object-cover" src={Map} alt="Map" />
       </article>
     </section>
   )
