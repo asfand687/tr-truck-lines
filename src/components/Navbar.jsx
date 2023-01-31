@@ -11,11 +11,11 @@ const Navbar = () => {
         <img src={Logo} className="w-32" alt="Logo"/>
         <aside className="hidden lg:flex items-center space-x-12">
           <ul className="flex space-x-8">
-            <li>For Shippers</li>
-            <li>For Truckers</li>
-            <li>Blog</li>
+            <li>About Us</li>
+            <li>Our Vision</li>
+            <li>Pricing</li>
           </ul>
-          <button className="rounded-full px-6 py-2 text-white bg-blue-500">Careers</button>
+          <button className="rounded-lg font-semibold px-6 py-2 bg-black text-yellow-600">Get Loads</button>
         </aside>
       </div>
       <img onClick={() => setShowDrawer(!showDrawer)} className='md:hidden absolute top-6 right-4' src={Hamburger} alt="Hamburger" />
