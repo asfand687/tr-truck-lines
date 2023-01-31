@@ -1,11 +1,14 @@
 import React from 'react'
-import Hero from '../assets/truck-hero.webp'
+import { AiTwotonePhone } from 'react-icons/ai'
 import BGVideo from '../assets/bg-video.mp4'
 
 const HomeHero = () => {
   return (
     <section className="h-[calc(100vh-65px)]">
       <div className="relative">
+        <div className="fixed left-10 bottom-0 bg-yellow-400 rounded-full w-24 h-24 flex justify-center items-center animate-pulse">
+          <AiTwotonePhone className="text-5xl" />
+        </div>
         <div className="absolute w-full h-[calc(100vh-65px)] z-20 flex justify-center items-center text-white gap-x-16">
           <article className="flex">
             <div data-aos="fade-right" className="w-full text-center lg:text-left lg:max-w-[450px]">
