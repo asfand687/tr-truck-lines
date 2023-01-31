@@ -4,7 +4,7 @@ import BGVideo from '../assets/bg-video.mp4'
 
 const HomeHero = () => {
   return (
-    <section>
+    <section className="h-[calc(100vh-65px)]">
       <div className="relative">
         <div className="absolute w-full h-[calc(100vh-65px)] z-20 flex justify-center items-center text-white gap-x-16">
           <article className="flex">
@@ -26,16 +26,16 @@ const HomeHero = () => {
             </p>
             <form className="space-y-4">
               <div>
-                <input className="bg-gray-200 outline-none border w-full px-4 py-2" type="text" placeholder="Full Name" />
+                <input className="bg-gray-200 rounded outline-none border w-full px-4 py-2" type="text" placeholder="Full Name" />
               </div>
               <div>
-                <input className="bg-gray-200 outline-none border w-full px-4 py-2" type="tel" placeholder="Phone Number" />
+                <input className="bg-gray-200 rounded outline-none border w-full px-4 py-2" type="tel" placeholder="Phone Number" />
               </div>
               <div>
-                <input className="bg-gray-200 outline-none border w-full px-4 py-2" type="email" placeholder="Email Address" />
+                <input className="bg-gray-200 rounded outline-none border w-full px-4 py-2" type="email" placeholder="Email Address" />
               </div>
               <div>
-                <input className="py-2 w-full bg-black text-yellow-600 font-medium mt-4" type="submit" value="Send Request" />
+                <input className="py-3 rounded w-full bg-black text-yellow-600 font-medium mt-4" type="submit" value="Send Request" />
               </div>
             </form>
         </article>
