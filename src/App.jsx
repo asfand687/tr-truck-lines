@@ -10,6 +10,8 @@ import Footer from './components/Footer'
 import AOS from 'aos'
 import "aos/dist/aos.css"
 import HomeOurPlans from './sections/HomeOurPlans'
+import HomeTrailersRentoutSection from './sections/HomeTrailersRentoutSection'
+import HomeStatsSection from './sections/HomeStatsSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,7 +26,9 @@ function App() {
       <HomeServices/>
       <NumberAndFigures/>
       <HomeOurPlans />
+      <HomeTrailersRentoutSection />
       <HomeLocationSection/>
+      <HomeStatsSection />
       <Footer/>
     </div>
   )
