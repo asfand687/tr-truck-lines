@@ -6,7 +6,7 @@ const HomeHero = () => {
   return (
     <section className="h-[calc(100vh-65px)]">
       <div className="relative">
-        <div className="fixed left-10 bottom-0 bg-yellow-400 rounded-full w-24 h-24 flex justify-center items-center animate-pulse">
+        <div className="fixed left-10 bottom-0 bg-yellow-400 rounded-full z-50 w-24 h-24 flex justify-center items-center animate-pulse">
           <AiTwotonePhone className="text-5xl" />
         </div>
         <div className="absolute w-full h-[calc(100vh-65px)] z-20 flex justify-center items-center text-white gap-x-16">
