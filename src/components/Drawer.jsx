@@ -9,10 +9,10 @@ const Drawer = ({ showDrawer, setShowDrawer }) => {
         <img src={Close} alt="Close" />
       </div>
       <img className="w-32" src={Logo} alt="Logo" />
-      <div>For Shippers</div>
-      <div>For Truckers</div>
-      <div>Blog</div>
-      <button className="rounded-full px-6 py-2 text-white bg-blue-500">Careers</button>
+      <li>About Us</li>
+      <li>Our Vision</li>
+      <li>Pricing</li>
+      <button className="rounded-lg font-semibold px-6 py-2 bg-black text-yellow-600">Get Loads</button>
     </nav>
   )
 }
