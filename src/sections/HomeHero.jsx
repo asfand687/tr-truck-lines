@@ -43,7 +43,7 @@ const HomeHero = () => {
             </form>
         </article>
         </div>
-        <video className="w-full h-[calc(100vh-65px)] object-cover" autoPlay playsinline muted loop>
+        <video className="w-full h-[calc(100vh-65px)] object-cover" autoPlay playsInline muted loop>
           <source src={BGVideo} type="video/mp4" />
         </video>
         <div className="absolute z-10 top-0 left-0 h-[calc(100vh-65px)] w-full bg-[#0000007a]"></div>
