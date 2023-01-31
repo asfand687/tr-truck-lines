@@ -6,7 +6,7 @@ import IFTA from '../assets/ifta.png'
 
 const HomeServices = () => {
   return (
-    <section className="py-8 md:py-20">
+    <section className="py-56 md:py-20">
       <div className="w-full max-w-7xl mx-auto">
         <h2 className="text-4xl text-center pb-8 font-bold">Services & Pricing</h2>
         <div className="flex justify-center flex-wrap gap-8">
