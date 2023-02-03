@@ -6,8 +6,9 @@ const HomeHero = () => {
   return (
     <section className="h-screen md:h-[calc(100vh-65px)]">
       <div className="relative">
-        <div className="fixed left-10 bottom-0 bg-yellow-400 rounded-full z-50 w-24 h-24 flex justify-center items-center animate-pulse">
-          <AiTwotonePhone className="text-5xl" />
+        <div className="fixed left-10 bottom-10 bg-gray-800 rounded-full z-50 w-24 h-24 flex justify-center items-center animate-pulse">
+          <AiTwotonePhone className="relative z-20 text-5xl text-yellow-400" />
+          <div className="absolute z-10 w-32 h-32 rounded-full bg-gray-500 animate-ping"></div>
         </div>
         <div className="absolute w-full  h-screen md:h-[calc(100vh-65px)] z-20 flex flex-col md:flex-row justify-center items-center text-white gap-x-16">
           <article className="mt-[200px] px-4 pb-10 md:mt-0 md:pb-0">
