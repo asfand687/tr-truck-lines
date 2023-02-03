@@ -20,7 +20,7 @@ function App() {
     AOS.init({ duration: 2000 })
   }, [])
   return (
-    <div className="overflow-x-hidden">
+    <div className="w-screen overflow-x-hidden">
       <Navbar/>
       <HomeHero/>
       <HomeServices/>
