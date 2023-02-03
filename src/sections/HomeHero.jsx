@@ -16,7 +16,7 @@ const HomeHero = () => {
               <div className="mx-auto md:mx-0 h-[6px] w-36 bg-yellow-600 mb-6"></div>
               <h2 className="text-4xl lg:text-7xl font-bold lg:max-w-[500px]">Freight Dispatch Service</h2>
               <p className="py-4">Full dispatch services for trucks. We provide high quality dispatching services with the best industry standards and additional realted services.</p>
-              <button className="bg-black text-yellow-600 rounded w-full max-w-[280px] py-3 font-medium">
+              <button className="bg-black text-xl text-yellow-400 rounded w-full max-w-[280px] py-3 font-semibold">
                 Get a Dispatcher
               </button>
             </div>
@@ -39,7 +39,7 @@ const HomeHero = () => {
                 <input className="bg-gray-200 rounded outline-none border w-full px-4 py-2" type="email" placeholder="Email Address" />
               </div>
               <div>
-                <input className="py-3 rounded w-full bg-black text-yellow-600 font-medium mt-4" type="submit" value="Send Request" />
+                <input className="py-3 rounded text-xl w-full bg-black text-yellow-400 font-semibold mt-4" type="submit" value="Send Request" />
               </div>
             </form>
         </article>
