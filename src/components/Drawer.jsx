@@ -4,7 +4,7 @@ import Close from '../assets/close.svg'
 
 const Drawer = ({ showDrawer, setShowDrawer }) => {
   return (
-    <nav className={`lg:hidden absolute z-50 top-20 bg-white p-6 flex flex-col items-center rounded-lg shadow-xl space-y-4 transition-all all ease-out duration-300 ${showDrawer ? 'right-0' : '-right-full'}`}>
+    <nav className={` md:hidden fixed z-50 top-20 bg-white p-6 flex flex-col items-center rounded-lg shadow-xl space-y-4 transition-all all ease-out duration-300 ${showDrawer ? 'right-0' : '-right-full'}`}>
       <div onClick={() => setShowDrawer(false)} className="w-full flex flex-row-reverse">
         <img src={Close} alt="Close" />
       </div>
