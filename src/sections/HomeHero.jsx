@@ -13,7 +13,7 @@ const HomeHero = () => {
         <div className="absolute w-full  h-screen md:h-[calc(100vh-65px)] z-20 flex flex-col md:flex-row justify-center items-center text-white gap-x-16">
           <article className="mt-[200px] px-4 pb-10 md:mt-0 md:pb-0">
             <div data-aos="fade-right" className="w-full text-center lg:text-left lg:max-w-[450px]">
-              <div className="mx-auto md:mx-0 h-[6px] w-36 bg-yellow-600 mb-6"></div>
+              <div className="mx-auto md:mx-0 h-[6px] w-36 bg-primary mb-6"></div>
               <h2 className="text-4xl lg:text-7xl font-bold lg:max-w-[500px]">Freight Dispatch Service</h2>
               <p className="py-4">Full dispatch services for trucks. We provide high quality dispatching services with the best industry standards and additional realted services.</p>
               <button className="bg-primary text-xl text-light rounded w-full max-w-[280px] py-3 font-semibold">
