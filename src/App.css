@@ -5,3 +5,7 @@
 .bg-gradient-sec {
   background: linear-gradient(340.79deg, #2AA6E0 2.67%, rgba(70, 198, 243, 0) 136.1%);
 }
+
+.bg-service-truckdispatch {
+  background: url("./assets/truck-driver.png") no-repeat center center/cover;
+}
