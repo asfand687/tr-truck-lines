@@ -8,7 +8,7 @@ const HomeAboutUsSection = () => {
     <section>
       <h2 className="text-4xl font-semibold text-center">About Us</h2>
       <HomeLocationSection/>
-      <section className="flex flex-col items-center pb-10">
+      <section className="flex flex-col md:flex-row items-center pb-10">
         <article className="flex-1">
           <img className="w-full h-[400px] object-cover" src={Vision} alt="Our Vision"/>
         </article>
