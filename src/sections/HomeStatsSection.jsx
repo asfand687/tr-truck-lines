@@ -12,28 +12,28 @@ const HomeStatsSection = () => {
       </div>
       <div className="relative px-4 z-20 w-full max-w-5xl mx-auto flex flex-col justify-center font-bold pt-16">
         <div className="px-4">
-          <div className="h-[6px] w-36 bg-yellow-600 mb-6" />
+          <div className="h-[6px] w-36 bg-primary mb-6" />
           <h2 className="text-5xl text-white">
             Our Milestones
           </h2>
         </div>
         <div className="flex flex-col md:flex-row space-y-10 md:space-y-0 justify-center items-center md:gap-x-16 pt-24 py-16">
           <article className="flex px-8 flex-col items-center text-center md:border-r-[0.25px] border-gray-500">
-            <TbTruckDelivery className="text-yellow-600 text-6xl md:text-8xl pb-4" />
+            <TbTruckDelivery className="text-primary text-6xl md:text-8xl pb-4" />
             <div className="text-white">
               <h2 className=" pb-2 text-4xl md:text-6xl font-bold text-white">5000+</h2>
               <p className="text-2xl">Freight Loads Moved</p>
             </div>
           </article>
           <article className="flex px-8 flex-col items-center text-center md:border-r-[0.25px] border-gray-500">
-            <FaMoneyCheckAlt className="text-yellow-600 text-6xl md:text-8xl pb-4" />
+            <FaMoneyCheckAlt className="text-primary text-6xl md:text-8xl pb-4" />
             <div className="text-white">
               <h2 className=" pb-2 text-4xl md:text-6xl font-bold text-white">$7500 +</h2>
               <p className="text-2xl">Average Gross Revenue</p>
             </div>
           </article>
           <article className="flex px-8 flex-col items-center text-center">
-            <FaWeightHanging className="text-yellow-600 text-6xl md:text-8xl pb-4" />
+            <FaWeightHanging className="text-primary text-6xl md:text-8xl pb-4" />
             <div className="text-white">
               <h2 className=" pb-2 text-4xl md:text-6xl font-bold text-white">58</h2>
               <p className="text-2xl">Mln Lbs Dispatched</p>
