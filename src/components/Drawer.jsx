@@ -12,7 +12,7 @@ const Drawer = ({ showDrawer, setShowDrawer }) => {
       <li>About Us</li>
       <li>Our Vision</li>
       <li>Pricing</li>
-      <button className="rounded-lg font-semibold px-6 py-2 bg-black text-yellow-600">Get Loads</button>
+      <button className="rounded-lg font-semibold px-6 py-2 bg-primary text-light">Get Loads</button>
     </nav>
   )
 }
