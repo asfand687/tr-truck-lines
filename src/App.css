@@ -7,5 +7,24 @@
 }
 
 .bg-service-truckdispatch {
-  background: url("./assets/truck-driver.png") no-repeat center center/cover;
+  background: url("./assets/truck-dispatching-card-bg.webp") no-repeat center center/cover;
+}
+
+.bg-service-billing {
+  background: url("./assets/billing-card-bg.webp") no-repeat center center/cover;
+}
+
+.bg-service-paperwork {
+  background: url("./assets/paperwork-card-bg.webp") no-repeat center center/cover;
+}
+
+.bg-service-ifta {
+  background: url("./assets/ifta-card-bg.webp") no-repeat center center/cover;
+}
+
+.bg-service-trailer-lease {
+  background: url("./assets/truck-lease.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
 }
