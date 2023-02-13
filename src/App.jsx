@@ -23,6 +23,7 @@ function App() {
     <div className="w-screen overflow-x-hidden">
       <Navbar/>
       <HomeHero/>
+      <HomeStatsSection />
       <HomeServices/>
       <HomeOurPlans />
       <HomeAboutUsSection/>
