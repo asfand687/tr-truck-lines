@@ -36,7 +36,7 @@ const HomeServices = () => {
   return (
     <section className="pt-56 pb-20 md:py-20 px-4">
       <div className="w-full max-w-7xl mx-auto">
-        <div className="flex justify-between md:px-10">
+        <div className="flex flex-col text-center items-center md:px-10 pb-10">
           <div data-aos="fade-right">
             <h2 className="text-3xl md:text-4xl pb-8 font-bold">Services <br/> and Pricing</h2>
           </div>
