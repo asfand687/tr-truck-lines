@@ -7,16 +7,12 @@ const HomeOurPlans = () => {
         Our Plans
       </h2>
       <div className="flex flex-col md:flex-row justify-center gap-y-4 gap-x-32 px-8">
-        <article data-aos="fade-right" className="bg-gradient py-10 w-full max-w-sm rounded-xl text-white relative flex flex-col justify-center text-center items-center overflow-hidden">
-          <div className='absolute top-6 -right-10 text-xs bg-blue-600 text-white p-1 px-10 transform rotate-45'>Best Value</div>
-          <p className="bg-white px-6 py-1 text-blue-300 font-semibold rounded-full flex justify-center items-center">
-            Enterprise
-          </p>
-          <div className="py-4">
+        <article data-aos="fade-right" className="w-full border-[0.25px] shadow-xl max-w-xs rounded-xl text-white">
+          <div className="py-16 bg-white text-primary text-center">
             <h2 className="text-3xl font-semibold">5% of Gross</h2>
             <p className="text-sm">Per Month</p>
           </div>
-          <ul>
+          <ul className="bg-primary p-6 flex flex-col items-center rounded-b-xl">
             <li>
               Lorem ipsum dolor
             </li>
@@ -29,23 +25,20 @@ const HomeOurPlans = () => {
             <li>
               Lorem ipsum dolor
             </li>
-          </ul>
-          <div className="pt-10 flex justify-center">
-            <button className="bg-primary text-xl text-light rounded px-10 py-3 font-semibold">
+            <li className="pt-10 flex justify-center">
+              <button className="bg-secondary text-xl text-light rounded px-10 py-3 font-semibold">
               Get Started
             </button>
-          </div>
+            </li>
+          </ul>
         </article>
 
-        <article data-aos="fade-left" className="bg-gradient-sec py-10 w-full max-w-sm rounded-xl text-white relative flex flex-col justify-center text-center items-center">
-          <p className="bg-white px-6 py-1 text-blue-300 font-semibold rounded-full flex justify-center items-center">
-            Enterprise
-          </p>
-          <div className="py-4">
+        <article data-aos="fade-left" className="w-full border-[0.25px] shadow-xl max-w-xs rounded-xl text-white">
+          <div className="py-16 bg-white text-primary text-center">
             <h2 className="text-3xl font-semibold">8% of Gross</h2>
             <p className="text-sm">Per Month</p>
           </div>
-          <ul>
+          <ul className="bg-primary p-6 flex flex-col items-center rounded-b-xl">
             <li>
               Lorem ipsum dolor
             </li>
@@ -57,13 +50,13 @@ const HomeOurPlans = () => {
             </li>
             <li>
               Lorem ipsum dolor
+            </li>
+            <li className="pt-10 flex justify-center">
+              <button className="bg-secondary text-xl text-light rounded px-10 py-3 font-semibold">
+                Get Started
+              </button>
             </li>
           </ul>
-          <div className="pt-10 flex justify-center">
-            <button className="bg-primary text-xl text-light rounded px-10 py-3 font-semibold">
-              Get Started
-            </button>
-          </div>
         </article>
       </div>
     </section>
