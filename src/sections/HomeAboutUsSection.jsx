@@ -26,26 +26,6 @@ const HomeAboutUsSection = () => {
             </p>
           </div>
         </article>
-        <article>
-          <h2 className="text-4xl font-semibold text-center pb-4">Our Mission</h2>
-          <div className="w-full max-w-4xl mx-auto space-y-3">
-            <p data-aos="fade-right">
-              At TR Truck Lines, our mission is to revolutionize the logistics industry by providing superior freight dispatch services that simplify shipping and enhance the customer experience.
-            </p>
-            <p data-aos="fade-right" data-aos-delay="300">
-              We believe that shipping should be effortless and worry-free. That's why we strive to deliver the best possible logistics solutions, combining technology, expertise, and a commitment to customer satisfaction.
-            </p>
-            <p data-aos="fade-right" data-aos-delay="300">
-              Our goal is to make shipping easier for businesses of all sizes by providing them with access to the resources and tools they need to manage their shipments efficiently and effectively. Whether you are looking to optimize your supply chain, reduce costs, or improve transit times, we have the experience and knowledge to help.
-            </p>
-            <p data-aos="fade-right" data-aos-delay="300">
-              We are dedicated to providing the highest quality of service to our customers and building long-lasting relationships based on trust, reliability, and excellence. Our team of experienced professionals is here to support you every step of the way, ensuring that your shipments are handled with the utmost care and attention.
-            </p>
-            <p data-aos="fade-right" data-aos-delay="300">
-              At TR Truck Lines, we are passionate about what we do and committed to making a difference in the logistics industry. Join us on our mission to simplify shipping and enhance the customer experience.
-            </p>
-          </div>
-        </article>
       </div>
       <HomeLocationSection/>
       <section className="flex flex-col-reverse md:flex-row pb-10">
