@@ -10,7 +10,7 @@ const HomeOurPlans = () => {
         <article data-aos="fade-right" className="w-full border-[0.25px] shadow-xl max-w-xs rounded-xl text-white">
           <div className="py-16 bg-white text-primary text-center">
             <h2 className="text-3xl font-semibold">5% of Gross</h2>
-            <p className="text-sm">Per Month</p>
+            <p className="text-sm text-accent">Per Month</p>
           </div>
           <ul className="bg-primary p-6 flex flex-col items-center rounded-b-xl">
             <li>
@@ -36,7 +36,7 @@ const HomeOurPlans = () => {
         <article data-aos="fade-left" className="w-full border-[0.25px] shadow-xl max-w-xs rounded-xl text-white">
           <div className="py-16 bg-white text-primary text-center">
             <h2 className="text-3xl font-semibold">8% of Gross</h2>
-            <p className="text-sm">Per Month</p>
+            <p className="text-sm text-accent">Per Month</p>
           </div>
           <ul className="bg-primary p-6 flex flex-col items-center rounded-b-xl">
             <li>
