@@ -12,6 +12,7 @@ import HomeOurPlans from './sections/HomeOurPlans'
 import HomeTrailersRentoutSection from './sections/HomeTrailersRentoutSection'
 import HomeStatsSection from './sections/HomeStatsSection'
 import HomeAboutUsSection from './sections/HomeAboutUsSection'
+import HomeContactSection from './sections/HomeContactSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,6 +28,7 @@ function App() {
       <HomeServices/>
       <HomeOurPlans />
       <HomeAboutUsSection/>
+      <HomeContactSection />
       <Footer/>
     </div>
   )
