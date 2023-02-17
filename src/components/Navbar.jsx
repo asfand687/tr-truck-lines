@@ -15,7 +15,7 @@ const Navbar = () => {
             <li>Our Vision</li>
             <li>Pricing</li>
           </ul>
-          <button className="rounded-lg font-semibold px-6 py-2 bg-primary text-light">Get a Dispatcher</button>
+          <button className="rounded font-semibold px-6 py-2 bg-primary text-light">Get a Dispatcher</button>
         </aside>
       </div>
       <img onClick={() => setShowDrawer(!showDrawer)} className='md:hidden absolute top-6 right-4' src={Hamburger} alt="Hamburger" />
