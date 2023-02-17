@@ -7,12 +7,12 @@ const HomeOurPlans = () => {
         Our Plans
       </h2>
       <div className="flex flex-col md:flex-row justify-center gap-y-4 gap-x-32 px-8">
-        <article data-aos="fade-right" className="w-full border-[0.25px] shadow-xl max-w-xs rounded-xl text-white">
+        <article data-aos="fade-right" className="w-full border shadow-xl max-w-xs rounded-xl text-white">
           <div className="py-16 bg-white text-primary text-center">
             <h2 className="text-3xl font-semibold">5% of Gross</h2>
             <p className="text-sm text-accent">Per Month</p>
           </div>
-          <ul className="bg-primary p-6 flex flex-col items-center rounded-b-xl">
+          <ul className="bg-primary p-6 py-10 flex flex-col items-center rounded-b-xl">
             <li>
               Lorem ipsum dolor
             </li>
@@ -33,12 +33,12 @@ const HomeOurPlans = () => {
           </ul>
         </article>
 
-        <article data-aos="fade-left" className="w-full border-[0.25px] shadow-xl max-w-xs rounded-xl text-white">
+        <article data-aos="fade-left" className="w-full border shadow-xl max-w-xs rounded-xl text-white">
           <div className="py-16 bg-white text-primary text-center">
             <h2 className="text-3xl font-semibold">8% of Gross</h2>
             <p className="text-sm text-accent">Per Month</p>
           </div>
-          <ul className="bg-primary p-6 flex flex-col items-center rounded-b-xl">
+          <ul className="bg-primary p-6 py-10 flex flex-col items-center rounded-b-xl">
             <li>
               Lorem ipsum dolor
             </li>
