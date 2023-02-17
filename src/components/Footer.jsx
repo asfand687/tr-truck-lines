@@ -8,8 +8,8 @@ import Phone from '../assets/phone.svg'
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="w-full max-w-7xl mx-auto flex flex-col items-center md:flex-row md:items-start border-t gap-y-4 py-20">
+    <footer className="border-t">
+      <div className="w-full max-w-7xl mx-auto flex flex-col items-center md:flex-row md:items-start gap-y-4 py-20">
         <img className="w-40" src={Logo} alt="Logo" />
         <article className="flex-1 gap-y-4">
           <div className="flex flex-col items-center md:items-start md:flex-row md:justify-center lg:space-x-16 pb-4 text-center md:text-left">
