@@ -38,7 +38,7 @@ const HomeServices = () => {
       <div className="w-full max-w-7xl mx-auto">
         <div className="flex flex-col text-center items-center md:px-10 pb-10">
           <div data-aos="fade-right">
-            <h2 className="text-3xl md:text-4xl pb-8 font-bold">Services <br/> and Pricing</h2>
+            <h2 className="text-3xl md:text-4xl pb-8 font-bold">Services</h2>
           </div>
           <h2 data-aos="fade-left" className="font-semibold text-primary text-2xl md:text-3xl">From 5% <br/> of Gross</h2>
         </div>
