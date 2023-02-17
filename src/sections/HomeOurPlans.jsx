@@ -26,7 +26,7 @@ const HomeOurPlans = () => {
               Lorem ipsum dolor
             </li>
             <li className="pt-10 flex justify-center">
-              <button className="bg-secondary text-xl text-light rounded px-10 py-3 font-semibold">
+              <button className="bg-secondary text-primary text-xl rounded px-10 py-3 font-semibold">
               Get Started
             </button>
             </li>
@@ -52,7 +52,7 @@ const HomeOurPlans = () => {
               Lorem ipsum dolor
             </li>
             <li className="pt-10 flex justify-center">
-              <button className="bg-secondary text-xl text-light rounded px-10 py-3 font-semibold">
+              <button className="bg-secondary text-primary text-xl rounded px-10 py-3 font-semibold">
                 Get Started
               </button>
             </li>
