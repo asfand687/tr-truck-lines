@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import Testimonial01 from '../assets/testimonial-01.png'
+import Testimonial02 from '../assets/testimonial-02.png'
+import Testimonial03 from '../assets/testimonial-03.png'
 
 const HomeTestimonialsSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
@@ -19,6 +22,10 @@ const HomeTestimonialsSection = () => {
           <div className="overflow-hidden">
             <div className={`flex transition-transform ease-in-out duration-300 ${currentSlide === 0 ? "translate-x-0" : currentSlide === 1 ? "-translate-x-[630px]" : "-translate-x-[1260px]"}`}>
               <article className="min-w-[630px] text-center bg-[#eaf3f4] p-6 rounded-lg">
+                <div className="space-y-3">
+                  <img className="mx-auto" src={Testimonial01} alt="Jack Roper" />
+                  <h4>Jack Roper</h4>
+                </div>
                 <h3 className="text-2xl font-semibold pb-4">
                   It was a very good experience
                 </h3>
@@ -27,6 +34,10 @@ const HomeTestimonialsSection = () => {
                 </p>
               </article>
               <article className="min-w-[630px] text-center bg-[#eaf3f4] p-6 rounded-lg">
+                <div className="space-y-3">
+                  <img className="mx-auto" src={Testimonial02} alt="Richard Darcy" />
+                  <h4>Richard Darcy</h4>
+                </div>
                 <h3 className="text-2xl font-semibold pb-4">
                   It was a nice experience
                 </h3>
@@ -35,6 +46,10 @@ const HomeTestimonialsSection = () => {
                 </p>
               </article>
               <article className="min-w-[630px] text-center bg-[#eaf3f4] p-6 rounded-lg">
+                <div className="space-y-3">
+                  <img className="mx-auto" src={Testimonial03} alt="Gavin Mcbride" />
+                  <h4>Gavin Mcbride</h4>
+                </div>
                 <h3 className="text-2xl font-semibold pb-4">
                   It was awesome experience
                 </h3>
