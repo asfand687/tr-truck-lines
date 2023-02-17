@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 import AOS from 'aos'
 import "aos/dist/aos.css"
 import HomeOurPlans from './sections/HomeOurPlans'
-import HomeTrailersRentoutSection from './sections/HomeTrailersRentoutSection'
+import HomeTestimonialsSection from './sections/HomeTestimonialsSection'
 import HomeStatsSection from './sections/HomeStatsSection'
 import HomeAboutUsSection from './sections/HomeAboutUsSection'
 import HomeContactSection from './sections/HomeContactSection'
@@ -28,6 +28,7 @@ function App() {
       <HomeServices/>
       <HomeOurPlans />
       <HomeAboutUsSection/>
+      <HomeTestimonialsSection />
       <HomeContactSection />
       <Footer/>
     </div>
