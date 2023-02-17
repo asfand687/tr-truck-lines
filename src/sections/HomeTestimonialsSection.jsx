@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import { ReactComponent as Ornament } from '../assets/ornament.svg'
 import Testimonial01 from '../assets/testimonial-01.png'
 import Testimonial02 from '../assets/testimonial-02.png'
 import Testimonial03 from '../assets/testimonial-03.png'
@@ -19,7 +20,10 @@ const HomeTestimonialsSection = () => {
           <button disabled={currentSlide === 2} className="absolute top-32 text-4xl -right-20 text-primary" onClick={() => setCurrentSlide(currentSlide + 1)}>
             <FaChevronRight />
           </button>
-          <div className="overflow-hidden">
+          <div className="absolute right-0 top-0 z-0 text-primary">
+            <Ornament />
+          </div>
+          <div className="relative z-10 overflow-hidden">
             <div className={`flex transition-transform ease-in-out duration-300 ${currentSlide === 0 ? "translate-x-0" : currentSlide === 1 ? "-translate-x-[630px]" : "-translate-x-[1260px]"}`}>
               <article className="min-w-[630px] text-center bg-[#eaf3f4] p-6 rounded-lg">
                 <div className="space-y-3">
