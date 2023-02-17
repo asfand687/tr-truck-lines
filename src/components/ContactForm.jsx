@@ -3,10 +3,10 @@ import React from 'react'
 const ContactForm = () => {
   return (
     <article data-aos="fade-left" className="bg-white rounded-2xl md:p-10 p-6 md:py-16 border shadow-2xl text-gray-800">
-      <h2 className="font-semibold text-3xl pb-4">
+      <h2 className="text-primary font-semibold text-3xl pb-4">
         Contact Us For Free Setup
       </h2>
-      <p className="text-gray-600 text-base max-w-[400px] pb-4">
+      <p className="text-accent text-base max-w-[400px] pb-4">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.
       </p>
       <form className="space-y-4">
