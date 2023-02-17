@@ -5,7 +5,7 @@ const HomeContactSection = () => {
   return (
     <section className="py-20  bg-primary">
       <div className="max-w-5xl mx-auto flex items-center justify-center gap-x-24">
-        <article className="max-w-xs">
+        <article data-aos="fade-right" className="max-w-xs">
           <h2 className="text-secondary font-semibold pb-4 text-4xl">Get in touch</h2>
           <div className="text-accent space-y-4">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate!</p>
