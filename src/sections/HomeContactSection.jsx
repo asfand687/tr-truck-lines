@@ -3,8 +3,8 @@ import ContactForm from '../components/ContactForm'
 
 const HomeContactSection = () => {
   return (
-    <section className="py-20  bg-primary">
-      <div className="max-w-5xl mx-auto flex items-center justify-center gap-x-24">
+    <section className="py-20 px-4 bg-primary">
+      <div className="max-w-5xl mx-auto flex flex-col md:flex-row gap-y-6 items-center justify-center gap-x-24">
         <article data-aos="fade-right" className="max-w-xs">
           <h2 className="text-secondary font-semibold pb-4 text-4xl">Get in touch</h2>
           <div className="text-accent space-y-4">
