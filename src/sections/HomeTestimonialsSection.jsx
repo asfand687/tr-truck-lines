@@ -13,11 +13,11 @@ const HomeTestimonialsSection = () => {
         Here is what our clients say about us
       </h2>
       <div className="w-full">
-        <section className="relative max-w-[630px] mx-auto">
-          <button disabled={currentSlide === 0} className="absolute top-44 text-4xl -left-20 text-accent" onClick={() => setCurrentSlide(currentSlide - 1)}>
+        <section className="relative max-w-[360px] md:max-w-[630px] mx-auto">
+          <button disabled={currentSlide === 0} className="absolute z-20 top-10 md:top-44 text-4xl left-10 md:-left-20 text-accent" onClick={() => setCurrentSlide(currentSlide - 1)}>
             <FaChevronLeft />
           </button>
-          <button disabled={currentSlide === 2} className="absolute top-44 text-4xl -right-20 text-accent" onClick={() => setCurrentSlide(currentSlide + 1)}>
+          <button disabled={currentSlide === 2} className="absolute z-20 top-10 md:top-44 text-4xl right-10 md:-right-20 text-accent" onClick={() => setCurrentSlide(currentSlide + 1)}>
             <FaChevronRight />
           </button>
           <div key="Ornament top" className="absolute -right-16 -top-14 z-0 text-accent">
@@ -27,8 +27,8 @@ const HomeTestimonialsSection = () => {
             <Ornament />
           </div>
           <div className="relative z-10 overflow-hidden">
-            <div className={`flex rounded-xl transition-transform ease-in-out duration-300 ${currentSlide === 0 ? "translate-x-0" : currentSlide === 1 ? "-translate-x-[630px]" : "-translate-x-[1260px]"}`}>
-              <article className="min-w-[630px] text-center bg-primary p-6 rounded-lg">
+            <div className={`flex rounded-xl transition-transform ease-in-out duration-300 ${currentSlide === 0 ? "translate-x-0" : currentSlide === 1 ? "-translate-x-[360px] md:-translate-x-[630px]" : "-translate-x-[720px] md:-translate-x-[1260px]"}`}>
+              <article className="min-w-[360px] md:min-w-[630px] text-center bg-primary p-6 rounded-lg">
                 <div className="space-y-3">
                   <img className="mx-auto w-20 h-20" src={Testimonial01} alt="Jack Roper" />
                   <h4 className="text-accent">Jack Roper</h4>
@@ -40,7 +40,7 @@ const HomeTestimonialsSection = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. urpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu
                 </p>
               </article>
-              <article className="min-w-[630px] text-center bg-primary p-6 rounded-lg">
+              <article className="min-w-[360px] md:min-w-[630px] text-center bg-primary p-6 rounded-lg">
                 <div className="space-y-3">
                   <img className="mx-auto w-20 h-20" src={Testimonial02} alt="Richard Darcy" />
                   <h4 className="text-accent">Richard Darcy</h4>
@@ -52,7 +52,7 @@ const HomeTestimonialsSection = () => {
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. urpis orci lectus maecenas. Suspendisse sed magna eget nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus pellentesque enim arcu
                 </p>
               </article>
-              <article className="min-w-[630px] text-center bg-primary p-6 rounded-lg">
+              <article className="min-w-[360px] md:min-w-[630px] text-center bg-primary p-6 rounded-lg">
                 <div className="space-y-3">
                   <img className="mx-auto w-20 h-20" src={Testimonial03} alt="Gavin Mcbride" />
                   <h4 className="text-accent">Gavin Mcbride</h4>
