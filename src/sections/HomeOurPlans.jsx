@@ -6,9 +6,9 @@ const HomeOurPlans = () => {
       <h2 className="text-center text-4xl font-semibold pb-12">
         Our Plans
       </h2>
-      <div className="flex flex-col md:flex-row justify-center gap-y-4 gap-x-32 px-8">
-        <article data-aos="fade-right" className="w-full border shadow-xl max-w-xs rounded-xl text-white">
-          <div className="py-16 bg-light text-primary text-center">
+      <div className="flex flex-col md:flex-row justify-center gap-y-12 gap-x-32 px-8">
+        <article data-aos="fade-right" className="w-full border shadow-2xl max-w-xs rounded-xl text-white">
+          <div className="py-16 bg-gray-100 text-primary text-center">
             <h2 className="text-3xl font-semibold">5% of Gross</h2>
             <p className="text-sm text-accent">Per Month</p>
           </div>
@@ -33,8 +33,8 @@ const HomeOurPlans = () => {
           </ul>
         </article>
 
-        <article data-aos="fade-left" className="w-full border shadow-xl max-w-xs rounded-xl text-white">
-          <div className="py-16 bg-light text-primary text-center">
+        <article data-aos="fade-left" className="w-full border shadow-2xl max-w-xs rounded-xl text-white">
+          <div className="py-16 bg-gray-100 text-primary text-center">
             <h2 className="text-3xl font-semibold">8% of Gross</h2>
             <p className="text-sm text-accent">Per Month</p>
           </div>
