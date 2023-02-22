@@ -8,27 +8,37 @@ const servicesInfo = [
     number: 1,
     title: "Truck Dispatching",
     className: "bg-service-truckdispatch w-[500px] h-[200px]",
-    fade: "fade-right"
+    fade: "fade-right",
+    textDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus quas ratione magni voluptatum, nulla nisi aperiam fugit eius. Repellat voluptates vero odio quisquam eos."
   },
   {
     number: 2,
     title: "Billing",
     className: "bg-service-billing w-[500px] h-[200px]",
-    fade: "fade-left"
+    fade: "fade-left",
+    textDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus quas ratione magni voluptatum, nulla nisi aperiam fugit eius. Repellat voluptates vero odio quisquam eos."
   },
   {
     number: 3,
     title: "Paperwork",
     className: "bg-service-paperwork w-[500px] h-[200px]",
-    fade: "fade-right"
+    fade: "fade-right",
+    textDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus quas ratione magni voluptatum, nulla nisi aperiam fugit eius. Repellat voluptates vero odio quisquam eos."
   },
   {
     number: 4,
     title: "IFTA",
     className: "bg-service-ifta w-[500px] h-[200px]",
-    fade: "fade-left"
+    fade: "fade-left",
+    textDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus quas ratione magni voluptatum, nulla nisi aperiam fugit eius. Repellat voluptates vero odio quisquam eos."
   },
-  
+  {
+    number: 5,
+    title: "Equipment",
+    className: "bg-service-equipment w-[500px] h-[200px]",
+    fade: "fade-left",
+    textDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus quas ratione magni voluptatum, nulla nisi aperiam fugit eius. Repellat voluptates vero odio quisquam eos."
+  },
 ]
 
 const HomeServices = () => {
@@ -42,15 +52,16 @@ const HomeServices = () => {
           </div>
           <h2 data-aos="fade-left" className="font-semibold text-primary text-2xl md:text-3xl">From 5% <br/> of Gross</h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 justify-center gap-8 mx-auto">
+        <div className="flex justify-around items-center flex-wrap gap-8 mx-auto">
           {
-            servicesInfo.map(({number, title, className, fade}) => (
+            servicesInfo.map(({ number, title, className, fade, textDescription }) => (
               <div className="flex justify-center items-center" key={`${id}-${number}`}>
                 <ServicesCard
                   number={number}
                   title={title}
                   className={className}
                   fade={fade}
+                  textDescription={textDescription}
                 />
               </div>
             ))
