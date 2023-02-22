@@ -5,6 +5,7 @@ import Linkedin from '../assets/linkedin.png'
 import Twitter from '../assets/twitter.png'
 import Envelope from '../assets/envelope.svg'
 import Phone from '../assets/phone.svg'
+import { FaInstagram } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -32,9 +33,7 @@ const Footer = () => {
           <p className="text-center">Copyright © TR Truck Lines 2023</p>
         </article>
         <article className="flex space-x-10">
-          <img className="w-8" src={Linkedin} alt="Linkedin"/>
-          <img className="w-8" src={Facebook} alt="Facebook"/>
-          <img className="w-8" src={Twitter} alt="Twitter"/>
+          <FaInstagram className="text-primary text-3xl" />
         </article>
       </div>
     </footer>
