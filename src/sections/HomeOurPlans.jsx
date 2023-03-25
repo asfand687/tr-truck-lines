@@ -27,7 +27,7 @@ const HomeOurPlans = () => {
             </li>
             <li className="pt-10 flex justify-center">
               <button className="bg-secondary text-primary text-xl rounded px-10 py-3 font-semibold">
-              Get Started
+                Get a Dispatcher
             </button>
             </li>
           </ul>
@@ -49,7 +49,7 @@ const HomeOurPlans = () => {
             <li>Safety Audits</li>
             <li className="pt-10 flex justify-center">
               <button className="bg-secondary text-primary text-xl rounded px-10 py-3 font-semibold">
-                Get Started
+                Get a Dispatcher
               </button>
             </li>
           </ul>
