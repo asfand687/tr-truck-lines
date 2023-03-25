@@ -31,14 +31,7 @@ const servicesInfo = [
     className: "bg-service-ifta  min-w-[340px] md:w-[500px] md:h-[200px]",
     fade: "fade-left",
     textDescription: "Why paying extra for IFTA filing when we got it covered for you. We will do quarterly IFTAs including in the dispatch services."
-  },
-  {
-    number: 5,
-    title: "Equipment",
-    className: "bg-service-equipment  min-w-[340px] md:w-[500px] md:h-[200px]",
-    fade: "fade-left",
-    textDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus quas ratione magni voluptatum, nulla nisi aperiam fugit eius. Repellat voluptates vero odio quisquam eos."
-  },
+  }
 ]
 
 const HomeServices = () => {
