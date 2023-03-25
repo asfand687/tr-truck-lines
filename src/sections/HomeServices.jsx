@@ -9,28 +9,28 @@ const servicesInfo = [
     title: "Truck Dispatching",
     className: "bg-service-truckdispatch  min-w-[340px] md:w-[500px] md:h-[200px]",
     fade: "fade-right",
-    textDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus quas ratione magni voluptatum, nulla nisi aperiam fugit eius. Repellat voluptates vero odio quisquam eos."
+    textDescription: "A to Z dispatch. We provide high paying loads. From calling the broker to getting the RC, we got you covered."
   },
   {
     number: 2,
     title: "Billing",
     className: "bg-service-billing  min-w-[340px] md:w-[500px] md:h-[200px]",
     fade: "fade-left",
-    textDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus quas ratione magni voluptatum, nulla nisi aperiam fugit eius. Repellat voluptates vero odio quisquam eos."
+    textDescription: "We will take care of the factoring."
   },
   {
     number: 3,
     title: "Paperwork",
     className: "bg-service-paperwork  min-w-[340px] md:w-[500px] md:h-[200px]",
     fade: "fade-right",
-    textDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus quas ratione magni voluptatum, nulla nisi aperiam fugit eius. Repellat voluptates vero odio quisquam eos."
+    textDescription: "We will take care of all the paperwork including PODs and Invoices."
   },
   {
     number: 4,
     title: "IFTA",
     className: "bg-service-ifta  min-w-[340px] md:w-[500px] md:h-[200px]",
     fade: "fade-left",
-    textDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repellendus quas ratione magni voluptatum, nulla nisi aperiam fugit eius. Repellat voluptates vero odio quisquam eos."
+    textDescription: "Why paying extra for IFTA filing when we got it covered for you. We will do quarterly IFTAs including in the dispatch services."
   },
   {
     number: 5,
