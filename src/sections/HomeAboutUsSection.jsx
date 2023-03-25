@@ -10,19 +10,7 @@ const HomeAboutUsSection = () => {
           <h2 className="text-4xl font-semibold text-center pb-4">About Us</h2>
           <div className="w-full max-w-4xl mx-auto space-y-3">
             <p data-aos="fade-right">
-              Welcome to TR Truck Lines, your reliable and efficient freight dispatch solution. Our mission is to provide top-notch logistics services that make shipping simple and stress-free for our customers.
-            </p>
-            <p data-aos="fade-right" data-aos-delay="300">
-              We understand the complexities and challenges of managing a successful shipment, and that's why we've brought together a team of experts with decades of experience in the industry. Our team works tirelessly to provide customized, cost-effective logistics solutions that meet the unique needs of each of our customers.
-            </p>
-            <p data-aos="fade-right" data-aos-delay="300">
-              Our services include carrier selection, load planning, route optimization, real-time tracking, documentation handling, and much more. We have established strong partnerships with a network of carriers, allowing us to provide our customers with a wide range of options and the flexibility to choose the right transportation method for their shipment.
-            </p>
-            <p data-aos="fade-right" data-aos-delay="300">
-              At TR Truck Lines, we are committed to providing the highest level of customer service and satisfaction. Whether you are a small business or a large corporation, we are here to help you manage your shipments with ease and peace of mind.
-            </p>
-            <p data-aos="fade-right" data-aos-delay="300">
-              We invite you to explore our website and learn more about the services we offer. If you have any questions or would like to discuss your logistics needs, please don't hesitate to contact us. Thank you for choosing TR Truck Lines as your dispatch solution.
+              TR Truck Lines is a logistics company that offers reliable and efficient freight dispatch services. They have an experienced team that provides customized logistics solutions to meet the unique needs of each customer. Their services include carrier selection, load planning, route optimization, real-time tracking, and more. They are committed to providing the highest level of customer service and satisfaction.
             </p>
           </div>
         </article>
