@@ -19,14 +19,16 @@ const HomeContactSection = () => {
               <h3 className="text-secondary text-xl">
                 Email
               </h3>
-              <p>connect@trtrucklines.com</p>
+              <p>trtrucklines@gmail.com</p>
             </div>
 
             <div>
               <h3 className="text-secondary text-xl">
                 Address
               </h3>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, libero? Aperiam aut repellendus nemo fugit?</p>
+              <p>
+                TR Truck Lines LLC, 225 Avenel St STE 108 Avenel, NJ 07001
+              </p>
             </div>
           </div>
         </article>
