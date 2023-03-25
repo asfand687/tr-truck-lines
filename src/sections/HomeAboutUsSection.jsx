@@ -16,7 +16,7 @@ const HomeAboutUsSection = () => {
         </article>
       </div>
       <HomeLocationSection/>
-      <section className="flex flex-col-reverse md:flex-row pb-10">
+      <section className="flex pt-16 flex-col-reverse md:flex-row pb-10">
         <article className="flex-1">
           <img className="w-full object-cover" src={Vision} alt="Our Vision" />
         </article>
