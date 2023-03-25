@@ -20,8 +20,12 @@ const ContactForm = () => {
           <input className="bg-gray-100 rounded outline-none border w-full px-4 py-2 ring-1 focus:ring-primary transition-all ease-out duration-300" type="email" placeholder="Email Address" />
         </div>
         <div>
+          <input className="bg-gray-100 rounded outline-none border w-full px-4 py-2 ring-1 focus:ring-primary transition-all ease-out duration-300" type="text" placeholder="Truck Type and Equipment" />
+        </div>
+        <div>
           <input className="py-3 rounded text-xl w-full bg-primary text-light font-semibold mt-4" type="submit" value="Send Request" />
         </div>
+
       </form>
     </article>
   )
