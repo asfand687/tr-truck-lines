@@ -14,16 +14,16 @@ const HomeOurPlans = () => {
           </div>
           <ul className="bg-primary p-6 py-10 flex flex-col items-center rounded-b-xl">
             <li>
-              Lorem ipsum dolor
+              Truck Dispatching
             </li>
             <li>
-              Lorem ipsum dolor
+              Billing
             </li>
             <li>
-              Lorem ipsum dolor
+              Paperwork
             </li>
             <li>
-              Lorem ipsum dolor
+              IFTA
             </li>
             <li className="pt-10 flex justify-center">
               <button className="bg-secondary text-primary text-xl rounded px-10 py-3 font-semibold">
@@ -39,18 +39,14 @@ const HomeOurPlans = () => {
             <p className="text-sm text-accent">Per Month</p>
           </div>
           <ul className="bg-primary p-6 py-10 flex flex-col items-center rounded-b-xl">
-            <li>
-              Lorem ipsum dolor
-            </li>
-            <li>
-              Lorem ipsum dolor
-            </li>
-            <li>
-              Lorem ipsum dolor
-            </li>
-            <li>
-              Lorem ipsum dolor
-            </li>
+            <li>Truck Dispatching</li>
+            <li>Billing</li>
+            <li>Paperwork</li>
+            <li>IFTA</li>
+            <li>Compliance</li>
+            <li>UCR</li>
+            <li>MCS 150</li>
+            <li>Getting you prepared for Safety Audits</li>
             <li className="pt-10 flex justify-center">
               <button className="bg-secondary text-primary text-xl rounded px-10 py-3 font-semibold">
                 Get Started
