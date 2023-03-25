@@ -46,7 +46,7 @@ const HomeOurPlans = () => {
             <li>Compliance</li>
             <li>UCR</li>
             <li>MCS 150</li>
-            <li>Getting you prepared for Safety Audits</li>
+            <li>Safety Audits</li>
             <li className="pt-10 flex justify-center">
               <button className="bg-secondary text-primary text-xl rounded px-10 py-3 font-semibold">
                 Get Started

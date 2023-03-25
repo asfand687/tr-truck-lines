@@ -8,7 +8,6 @@ const HomeContactSection = () => {
         <article data-aos="fade-right" className="max-w-xs">
           <h2 className="text-secondary font-semibold pb-4 text-4xl">Get in touch</h2>
           <div className="text-accent space-y-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptate!</p>
             <div>
               <h3 className="text-secondary text-xl">
                 Phone
