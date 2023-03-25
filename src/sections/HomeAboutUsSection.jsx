@@ -27,11 +27,7 @@ const HomeAboutUsSection = () => {
           </h2>
             <div className="w-full max-w-[530px] pb-6 md:pb-0">
               <p>
-                At TR Truck Lines, our vision is to be the leading provider of innovative and reliable freight dispatch services, delivering unparalleled value to our customers and stakeholders.
-                We see a future where shipping is seamless, efficient, and accessible to businesses of all sizes. A future where technology, expertise, and customer focus come together to create a logistics experience that exceeds expectations.
-                We strive to empower our customers with the tools and resources they need to manage their shipments with confidence, and to make shipping a competitive advantage for their businesses. Our vision is to help our customers succeed by providing them with the highest quality of service and the most advanced logistics solutions available.
-                We believe in the power of collaboration and teamwork, and we are committed to building strong relationships with our customers, partners, and employees. Our vision is to create a thriving community of logistics professionals who share our passion for excellence and are dedicated to making a positive impact in the industry.
-                At TR Truck Lines, we are passionate about what we do and believe in the power of our vision. Join us as we strive to shape the future of the logistics industry and deliver unparalleled value to our customers.
+                At TR Truck Lines, we strive to disrupt the logistics landscape by providing cutting-edge, reliable freight dispatch solutions that prioritize customer satisfaction. Our vision is to empower businesses with the resources to streamline their operations, enhance efficiency, and gain a competitive advantage.
               </p>
           </div>
         </div>
