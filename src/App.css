@@ -51,5 +51,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
 
+.bg-vision-section {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(10, 10, 10, 0.73)), url("./assets/vision.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 80%;
 }
