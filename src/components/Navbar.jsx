@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from '../assets/logo.svg'
+import { ReactComponent as Logo } from '../assets/logo-new.svg'
 import Drawer from '../components/Drawer'
 import Hamburger from '../assets/hamburger.svg'
 
@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className="w-full px-4 max-w-7xl mx-auto py-2 flex items-center justify-between overflow-hidden">
-        <img src={Logo} className="w-32" alt="Logo"/>
+        <Logo className="w-12 h-16"/>
         <aside className="hidden lg:flex items-center space-x-12">
           <ul className="flex space-x-8">
             <li>About Us</li>

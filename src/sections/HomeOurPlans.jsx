@@ -6,7 +6,7 @@ const HomeOurPlans = () => {
       <h2 className="text-center text-4xl font-semibold pb-12">
         Our Plans
       </h2>
-      <div className="flex flex-col md:flex-row items-center justify-center gap-y-12 gap-x-32 px-8">
+      <div className="flex flex-col md:flex-row justify-center gap-y-12 gap-x-32 px-8">
         <article data-aos="fade-right" className="w-full border shadow-2xl max-w-xs rounded-xl text-white">
           <div className="py-16 bg-gray-100 text-primary text-center">
             <h2 className="text-3xl font-semibold">5% of Gross</h2>
@@ -25,7 +25,7 @@ const HomeOurPlans = () => {
             <li className="w-full max-w-[148px]">
               IFTA
             </li>
-            <li className="pt-10 flex justify-center">
+            <li className="pt-[136px] flex justify-center">
               <button className="bg-secondary text-primary text-xl rounded px-10 py-3 font-semibold">
                 Get a Dispatcher
             </button>
