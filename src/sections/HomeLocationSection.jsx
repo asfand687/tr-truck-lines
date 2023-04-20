@@ -7,7 +7,7 @@ const HomeLocationSection = () => {
       <h2 className="text-3xl text-center font-semibold pb-6">
         Located in Avnel NJ
       </h2>
-      <article className='flex-1'>
+      <article className='flex-1 overflow-x-hidden'>
         <img className="w-full h-[500px] object-cover" src={Map} alt="Map" />
       </article>
     </section>
