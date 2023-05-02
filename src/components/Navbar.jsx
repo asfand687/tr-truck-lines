@@ -21,11 +21,12 @@ const Navbar = () => {
           <ul className="flex space-x-8">
             <li>
               <Link
-                activeClass='nav-active-link'
-                offset={-155}
+                offset={-85}
                 to="about"
                 smooth={true}
                 duration={500}
+                spy={true}
+                activeClass='font-semibold text-primary'
                 className="cursor-pointer"
               >
                 About Us
@@ -33,31 +34,32 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                activeClass='font-semibold text-primary'
                 offset={-165}
                 to="vision"
                 smooth={true}
                 duration={500}
+                spy={true}
+                activeClass='font-semibold text-primary'
                 className="cursor-pointer"
-                >
-                  Our Vision
-                </Link>
+              >
+                Our Vision
+              </Link>
             </li>
             <li>
               <Link
-                activeClass='font-semibold text-primary'
-                offset={-145}
+                offset={-85}
                 to="pricing"
                 smooth={true}
                 duration={500}
+                activeClass='font-semibold text-primary'
                 className="cursor-pointer"
+                spy={true}
                 >
                   Pricing
               </Link>
             </li>
           </ul>
           <Link
-            activeClass='font-semibold text-primary'
             offset={-115}
             to="contact"
             smooth={true}
