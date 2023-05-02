@@ -13,6 +13,8 @@ import HomeTestimonialsSection from './sections/HomeTestimonialsSection'
 import HomeStatsSection from './sections/HomeStatsSection'
 import HomeAboutUsSection from './sections/HomeAboutUsSection'
 import HomeContactSection from './sections/HomeContactSection'
+import ContactFormModal from './components/ContactFormModal'
+import HomeOurVisionSection from './sections/HomeOurVisionSection'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -28,9 +30,11 @@ function App() {
       <HomeServices/>
       <HomeOurPlans />
       <HomeAboutUsSection/>
+      <HomeOurVisionSection/>
       <HomeTestimonialsSection />
       <HomeContactSection />
       <Footer/>
+      <ContactFormModal/>
     </div>
   )
 }
