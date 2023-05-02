@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 const HomeOurPlans = () => {
   return (
-    <section className="pt-10 pb-20">
+    <section id="pricing" className="pt-10 pb-20">
       <h2 className="text-center text-4xl font-semibold pb-12">
         Our Plans
       </h2>
@@ -27,8 +28,17 @@ const HomeOurPlans = () => {
             </li>
             <li className="pt-[136px] flex justify-center">
               <button className="bg-secondary text-primary text-xl rounded px-10 py-3 font-semibold">
-                Get a Dispatcher
-            </button>
+                <Link
+                  activeClass='font-semibold text-primary'
+                  offset={-115}
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  className="cursor-pointer"
+                >
+                  Get a Dispatcher
+                </Link>
+              </button>
             </li>
           </ul>
         </article>
@@ -49,7 +59,16 @@ const HomeOurPlans = () => {
             <li className="w-full max-w-[148px]">Safety Audits</li>
             <li className="pt-10 flex justify-center">
               <button className="bg-secondary text-primary text-xl rounded px-10 py-3 font-semibold">
-                Get a Dispatcher
+                <Link
+                  activeClass='font-semibold text-primary'
+                  offset={-115}
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  className="cursor-pointer"
+                >
+                  Get a Dispatcher
+                </Link>
               </button>
             </li>
           </ul>
