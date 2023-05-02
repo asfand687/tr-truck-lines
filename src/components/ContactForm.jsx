@@ -1,29 +1,98 @@
-import React from 'react'
+import React, { useState } from 'react'
+import Loader from '../assets/animatedDots.svg'
 
 const ContactForm = () => {
+  const [fullName, setFullName] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
+  const [emailAddress, setEmailAddress] = useState('');
+  const [truckType, setTruckType] = useState('');
+  const [isLoading, setIsLoading] = useState(false)
+
+  const handleFormSubmit = async (e) => {
+    e.preventDefault()
+
+    try {
+      setIsLoading(true)
+      const response = await fetch('https://tr-truck-lines-mailserver.onrender.com/api/contact-form', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          fullName,
+          phoneNumber,
+          emailAddress,
+          truckAndEquipmentType: truckType,
+        })
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log(data.message);
+        // Clear the form fields
+        setFullName('');
+        setPhoneNumber('');
+        setEmailAddress('');
+        setTruckType('');
+        setIsLoading(false)
+      } else {
+        setIsLoading(false)
+        throw new Error('Failed to submit form');
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  }
   return (
     <article id="contact" data-aos="fade-left" className="bg-white rounded-2xl md:p-10 p-6 py-16 border shadow-2xl text-gray-800">
       <h2 className="text-primary font-semibold text-3xl pb-4">
         Contact Us For Free Setup
       </h2>
 
-      <form className="space-y-4">
+      <form onSubmit={handleFormSubmit} className="space-y-4">
         <div>
-          <input className="bg-gray-100 rounded outline-none border w-full px-4 py-2 ring-1 focus:ring-primary transition-all ease-out duration-300" type="text" placeholder="Full Name" />
+          <input 
+            value={fullName}
+            onChange={({target}) => setFullName(target.value)}
+            className="input input-bordered input-primary w-full transition-all ease-out duration-300" 
+            type="text" 
+            placeholder="Full Name" 
+          />
         </div>
         <div>
-          <input className="bg-gray-100 rounded outline-none border w-full px-4 py-2 ring-1 focus:ring-primary transition-all ease-out duration-300" type="tel" placeholder="Phone Number" />
+          <input
+            value={phoneNumber}
+            onChange={({target}) => setPhoneNumber(target.value == "0" ? target.value : parseInt(target.value) ? target.value : "")} 
+            className="input input-bordered input-primary w-full transition-all ease-out duration-300" 
+            type="tel" 
+            placeholder="Phone Number" 
+          />
         </div>
         <div>
-          <input className="bg-gray-100 rounded outline-none border w-full px-4 py-2 ring-1 focus:ring-primary transition-all ease-out duration-300" type="email" placeholder="Email Address" />
+          <input 
+            value={emailAddress}
+            onChange={({target}) => setEmailAddress(target.value)}
+            className="input input-bordered input-primary w-full transition-all ease-out duration-300" 
+            type="email" 
+            placeholder="Email Address" 
+          />
         </div>
         <div>
-          <input className="bg-gray-100 rounded outline-none border w-full px-4 py-2 ring-1 focus:ring-primary transition-all ease-out duration-300" type="text" placeholder="Truck Type and Equipment" />
+          <input 
+            value={truckType}
+            onChange={({target}) => setTruckType(target.value)}
+            className="input input-bordered input-primary w-full transition-all ease-out duration-300" 
+            type="text" 
+            placeholder="Truck Type and Equipment" 
+          />
         </div>
         <div>
-          <input className="py-3 rounded text-xl w-full bg-primary text-light font-semibold mt-4" type="submit" value="Send Request" />
+          <button 
+            className="flex justify-center items-center cursor-pointer hover:opacity-75 transition-opacity ease-in-out duration-300 h-[52px] rounded text-xl w-full bg-primary text-light font-semibold mt-4" type="submit" 
+          >
+            {isLoading ? <img className="w-5" src={Loader} alt="Loader"/> : "Send Request"}
+          </button>
         </div>
-
       </form>
     </article>
   )
