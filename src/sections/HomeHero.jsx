@@ -12,7 +12,7 @@ const HomeHero = () => {
       <div className="relative">
         <div className="fixed left-10 bottom-10 bg-primary rounded-full z-50 w-16 h-16 flex justify-center items-center animate-pulse">
         <label htmlFor="my-modal-4">
-          <AiTwotonePhone className="relative z-20 text-5xl text-secondary" />
+          <AiTwotonePhone className="cursor-pointer relative z-20 text-5xl text-secondary" />
         </label>
           <div className="absolute z-10 w-20 h-20 rounded-full bg-accent animate-ping"></div>
         </div>
