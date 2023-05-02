@@ -1,13 +1,19 @@
 import React from 'react'
 import { AiTwotonePhone } from 'react-icons/ai'
 import BGVideo from '../assets/bg-video.mp4'
+import { Link } from 'react-scroll'
 
 const HomeHero = () => {
   return (
-    <section className="h-[calc(100vh-150px)] md:h-[calc(100vh-65px)]">
+    <section
+      id="home" 
+      className="h-[calc(100vh-150px)] md:h-[calc(100vh-65px)] mt-[66px]"
+    >
       <div className="relative">
         <div className="fixed left-10 bottom-10 bg-primary rounded-full z-50 w-16 h-16 flex justify-center items-center animate-pulse">
+        <label htmlFor="my-modal-4">
           <AiTwotonePhone className="relative z-20 text-5xl text-secondary" />
+        </label>
           <div className="absolute z-10 w-20 h-20 rounded-full bg-accent animate-ping"></div>
         </div>
         <div className="absolute w-full h-screen md:h-[calc(100vh-65px)] z-20 flex flex-col md:flex-row md:justify-center md:items-center pt-24 text-white gap-x-16">
@@ -20,7 +26,16 @@ const HomeHero = () => {
                 We match you with the highest paying loads, so you can spend more time on the road and less time searching for work
               </p>
               <button className="bg-primary text-xl text-light rounded w-full max-w-[230px] py-3 font-semibold">
-                Get a Dispatcher
+                <Link
+                  activeClass='font-semibold text-primary'
+                  offset={-115}
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  className="cursor-pointer"
+                >
+                  Get a Dispatcher
+                </Link>
               </button>
             </div>
           </article>
