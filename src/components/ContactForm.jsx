@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Loader from '../assets/animatedDots.svg'
+import toast from 'react-hot-toast'
 
 const ContactForm = () => {
   const [fullName, setFullName] = useState('');
@@ -27,8 +28,8 @@ const ContactForm = () => {
       });
 
       if (response.ok) {
+        toast.success("Your request is submitted successfully", {id: "successful-form-submit"})
         const data = await response.json();
-        console.log(data.message);
         // Clear the form fields
         setFullName('');
         setPhoneNumber('');
@@ -36,6 +37,7 @@ const ContactForm = () => {
         setTruckType('');
         setIsLoading(false)
       } else {
+        toast.error("Your request is submitted successfully", {id: "error-form-submit"})
         setIsLoading(false)
         throw new Error('Failed to submit form');
       }

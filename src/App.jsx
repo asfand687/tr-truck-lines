@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import reactLogo from './assets/react.svg'
+import { Toaster } from 'react-hot-toast'
 import './App.css'
 import Navbar from './components/Navbar'
 import HomeHero from './sections/HomeHero'
@@ -24,6 +24,7 @@ function App() {
   }, [])
   return (
     <div className="overflow-x-hidden">
+      <Toaster/>
       <Navbar/>
       <HomeHero/>
       <HomeStatsSection />
